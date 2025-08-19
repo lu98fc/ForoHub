@@ -18,7 +18,7 @@ El proyecto sigue una arquitectura limpia y modular, asegurando mantenibilidad y
 
 
 
-🏛️ Arquitectura
+Arquitectura
 
 La arquitectura de ForoHub se organiza en **tres capas principales**:
 
@@ -26,11 +26,8 @@ La arquitectura de ForoHub se organiza en **tres capas principales**:
 * **Domain** → Contiene entidades, DTOs, servicios y repositorios.
 * **Infra** → Configuración de seguridad, manejo de errores y utilidades.
 
-![Arquitectura ForoHub](docs/diagrama-arquitectura.png)
 
-
-
-🏛️ Base de Datos
+Base de Datos
 
 el diagrama Entidad Relación de ForoHub se organiza en **cinco tablas principales**:
 
@@ -41,7 +38,6 @@ Descripción de las Relaciones
 * 🎓 **Curso** y **Tópico** (Uno a Muchos): Un curso puede tener muchos tópicos asociados.
 * 🔑 **Tópico** y **Respuesta** (Uno a Muchos): Un tópico puede tener muchas respuestas.
 
-![Base de Datos ForoHub](docs/diagrama-entidad-relacion.png)
 
 
  🛠️ Tecnologías utilizadas
